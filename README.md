@@ -1,4 +1,4 @@
-# Тестовое задание в Газпром Нефть  
+# Тестовое задание в Газпром  
 
 1) Разработать компонент таблицы по макету table.png 
   ![alt](https://github.com/nilaev/gazprom-task/blob/master/readme-source/table.png)
