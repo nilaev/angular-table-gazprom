@@ -1,0 +1,71 @@
+$main-bg-color: #21232c;
+$light-bg-color: #2a2d37;
+$main-elem-color: #929eb6;
+
+table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  background-color: $main-bg-color;
+  color: $main-elem-color;
+}
+
+.mat-row:nth-child(odd) .mat-cell {
+  background-color: $main-bg-color;
+  color: $main-elem-color;
+}
+
+.mat-row:nth-child(even) .mat-cell {
+  background-color: $light-bg-color;
+  color: $main-elem-color;
+}
+
+.form-field {
+  width: 100%;
+  background: $main-bg-color;
+  padding: 0;
+}
+
+.search-suffix {
+  display: flex;
+}
+
+.mat-icon {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  background: $main-bg-color;
+  color: $main-elem-color;
+}
+
+.delete-button {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.delete-button > .mat-icon:hover{
+  background: $light-bg-color;
+}
+
+.search-input {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0;
+  color: $main-elem-color;
+}
+
+.search-input::placeholder {
+  color: $main-elem-color;
+}
+
+.mat-column-name, .mat-column-username, .mat-column-email, .mat-column-address, .mat-column-phone, .mat-column-website {
+  padding-left: 10px;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
